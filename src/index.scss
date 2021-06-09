@@ -9,4 +9,34 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.836);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: whitesmoke;
+}
+
+header {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQd9iRY8tBwrypOoycUI62B7IytYnj6qd-_ArU7UMhlfvp3l6SlMwbN994NCkDadxye6qcyc&usqp=CAc');
+  background-size: 11.3%;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: cursive;
+  color: black;
+}
+
+main {
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(146, 146, 146);
+  backdrop-filter: blur(7px);
+  font-family: pixeldust;
 }
