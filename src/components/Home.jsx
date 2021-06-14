@@ -6,7 +6,7 @@ export function Home() {
 
   useEffect(function () {
     async function loadPets() {
-      const response = await fetch('localhost:5000/api/Pets')
+      const response = await fetch('https://localhost:5001/api/Pets')
 
       if (response.status === 200) {
         const json = await response.json()
