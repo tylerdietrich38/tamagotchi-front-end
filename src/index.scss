@@ -17,17 +17,74 @@ body {
 }
 
 header {
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQd9iRY8tBwrypOoycUI62B7IytYnj6qd-_ArU7UMhlfvp3l6SlMwbN994NCkDadxye6qcyc&usqp=CAc');
-  background-size: 11.3%;
+  background: url('https://vpetparadise.com/wp-content/uploads/2019/06/tamagotchi-logo.png');
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 1rem;
+  min-height: 100%;
 }
 
 h1 {
   font-family: cursive;
-  color: black;
+  background-color: transparent;
 }
 
-main {
+h2 {
+  background: url(https://image.shutterstock.com/image-photo/abstract-art-colored-powder-on-260nw-1051734671.jpg);
+  background-size: 100%;
+  background-position: 17% 17%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+}
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  main {
+    flex-grow: 1;
+  }
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    background-color: rgb(146, 146, 146);
+  }
+}
+
+a:link {
+  color: purple;
+}
+
+dl {
+  display: grid;
+  grid-gap: 0.5rem;
+  text-align: left;
+  padding-left: 2rem;
+  border-radius: 1rem;
+}
+
+dt {
+  color: gold;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+dd {
+  font-size: 18px;
+  color: aqua;
 }
 
 footer {
@@ -38,5 +95,4 @@ footer {
   border-width: 1px;
   border-color: rgb(146, 146, 146);
   backdrop-filter: blur(7px);
-  font-family: pixeldust;
 }
